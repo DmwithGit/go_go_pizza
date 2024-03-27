@@ -1,0 +1,51 @@
+.modal {
+    position: fixed;
+    z-index: 45;
+    inset: 0;
+    background: rgba(44, 40, 38, 0.89);
+    cursor: pointer;
+    display: none;
+    padding: 30px 14px;
+    overflow-y: auto;
+}
+
+.modal-pizza__main {
+    max-width: 368px;
+}
+
+.modal__main {
+    position: relative;
+    cursor: default;
+    padding: 16px;
+    background: var(--white);
+    border-radius: 32px;
+    max-width: 368px;
+    margin: auto;
+}
+
+
+.modal-pizza__img {
+}
+.modal-pizza__title {
+}
+.modal-pizza__toppings {
+}
+.modal-pizza__info {
+}
+.modal-pizza__price {
+}
+.modal-pizza__size {
+}
+.modal-pizza__fieldset {
+}
+.modal-pizza__checkbox {
+}
+.modal-pizza__label {
+}
+.modal-pizza__add-cart {
+}
+.modal__close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}

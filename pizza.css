@@ -1,0 +1,51 @@
+.pizza {
+    padding: 24px 0;
+}
+.pizza__title {
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 1;
+    color: var(--dark);
+    margin-bottom: 24px;
+}
+.pizza__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 12px;
+}
+
+.pizza__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.pizza__card {
+    flex-grow: 1;
+}
+
+@media (width >= 620px) {
+    .pizza {
+        padding: 64px 0;
+    }
+
+    .pizza__title {
+        font-size: 44px;
+    }
+
+    .pizza__list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        gap: 12px;
+    }
+}
+
+@media (width >= 860px) {
+}
+
+@media (width >= 1140px) {
+    .pizza__list {
+        gap: 20px;
+    }
+}
+
+ 

@@ -1,0 +1,68 @@
+.header {
+    position: absolute;
+    top: 24px;
+    left: 0;right: 0;
+    z-index: 5;                     /*Выставляем индекс 5, чтобы не проваливался элемент логотип*/
+}
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.header__logo {
+    width: 120px;
+}
+.header__cart {
+    color: var(--dark);
+}
+
+.header__cart:hover {
+    color: var(--orange);
+}
+
+@media (width >= 620px) {
+    .header {
+        top: 40px;           
+    }
+    
+    .header__logo {
+        width: 164px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
